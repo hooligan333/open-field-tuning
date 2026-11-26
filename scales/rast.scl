@@ -1,0 +1,17 @@
+! rast.scl
+!
+Maqam rast on C, 12-key form: degrees 0 200 350 500 700 900 1050 (24-tone equal theory), E and B half-flat, other keys 12-tone equal
+ 12
+!
+ 100.0   C#
+ 200.0   D (rast)
+ 300.0   Eb
+ 350.0   E half-flat (rast)
+ 500.0   F (rast)
+ 600.0   F#
+ 700.0   G (rast)
+ 800.0   Ab
+ 900.0   A (rast)
+ 1000.0  Bb
+ 1050.0  B half-flat (rast)
+ 2/1

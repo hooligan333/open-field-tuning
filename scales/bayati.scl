@@ -1,0 +1,17 @@
+! bayati.scl
+!
+Maqam bayati on C, 12-key form: degrees 0 150 300 500 700 800 1000 (24-tone equal theory), D half-flat, other keys 12-tone equal
+ 12
+!
+ 100.0   C#
+ 150.0   D half-flat (bayati)
+ 300.0   Eb (bayati)
+ 400.0   E
+ 500.0   F (bayati)
+ 600.0   F#
+ 700.0   G (bayati)
+ 800.0   Ab (bayati)
+ 900.0   A
+ 1000.0  Bb (bayati)
+ 1100.0  B
+ 2/1

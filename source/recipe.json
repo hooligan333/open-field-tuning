@@ -1,0 +1,36 @@
+{
+  "about": "Alternate tunings for OS 1.7.3+0: writes the firmware's note table (0x848c5270, 128 words) from tunings built on the unit from its own stock table, only when a run-time CRC-32 says that table is the stock one. Shift and the metronome key open its page: the blue knob picks a group, the second knob a tuning in it (12 equal, built-ins, .oft files of its folder `tuning` named group-name.oft), the third the root, the fourth a detune of -50..+50 cents. The choice is kept in its hidden folder `tuning-set`. Card level 3, no table entries.",
+  "name": "tuning",
+  "version": 8,
+  "interface": 1,
+  "build": "tuning",
+  "sources": [
+    "examples/tuning/tuning.cpp",
+    "examples/tuning/tuning_card.s",
+    "examples/tuning/tuning_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "tuning.svg",
+      "file": "examples/tuning/tuning.svg.make"
+    }
+  ],
+  "card": {
+    "level": 3,
+    "frame": "tuning_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "tuning_input",
+    "folders": [
+      { "name": "tuning", "place": "tuning" },
+      { "name": "tuning-set", "place": "tuning-set", "shown": false }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}
